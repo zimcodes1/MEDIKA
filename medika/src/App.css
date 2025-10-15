@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+@font-face {
+  font-family: Mont;
+  src: url(/fonts/Mont-HeavyDEMO.otf);
+}
+
+*{
+  box-sizing: border-box;
+}
