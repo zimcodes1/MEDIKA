@@ -1,12 +1,10 @@
 import './App.css'
-import TopBar from './components/TopBar'
+import Hero from './components/Hero'
 
 function App(){
   return(
     <div className='w-full h-auto'>
-      <div className='w-full h-[600px] bg-blue-100 flex px-20'>
-        <TopBar></TopBar>
-      </div>
+      <Hero></Hero>
     </div>
   )
 } 
