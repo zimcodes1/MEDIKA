@@ -1,10 +1,8 @@
-import TopBar from "./TopBar";
-import ButBar from "./ButBar";
+import ButBar from "./micros/ButBar";
 
 const Hero = ()=>{
     return(
-        <div className='w-full h-[600px] bg-blue-100 flex px-20 max-sm:px-4 relative overflow-hidden flex-wrap'>
-        <TopBar></TopBar>
+        <div className='w-full h-[530px] bg-blue-100 flex px-20 max-sm:px-4 relative overflow-hidden flex-wrap'>
         <div className='flex w-[50%] h-full flex-col py-20 flex-wrap'>
           <h1 className='font-[Mont] text-5xl text-gray-900'>Search & Find Your <b className='text-blue-700'>Favourite</b> Doctor</h1>
           <p className='text-sm text-blue-950 font-sans mt-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae rem cumque adipisci temporibus.</p>

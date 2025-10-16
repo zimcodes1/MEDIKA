@@ -2,7 +2,7 @@
 
 const TopBar = ()=>{
     return(
-        <div className='sticky top-0 bg-blue-100 h-[60px] w-full flex justify-between items-center'>
+        <div className='sticky top-0 bg-blue-100 h-[70px] w-full flex justify-between items-center px-20 max-sm:px-4 z-50'>
           <span><h3 className='max-sm:text-xl text-2xl font-bold font-[Mont] text-blue-700'>Medika</h3></span>
           <span className='flex'>
             <a href="#" className='max-sm:mx-1 max-sm:text-xs text-blue-950 font-semibold mx-2 hover:border-b-2 hover:border-blue-700 hover:text-blue-700 transition duration-600'>Home</a>
