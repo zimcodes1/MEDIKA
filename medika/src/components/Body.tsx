@@ -1,4 +1,5 @@
 import ConsultingSpecialistCard from "./micros/ConsultingSpecialistCard"
+import Testimonial from "./micros/Testimonial"
 
 function Body(){
     return(
@@ -14,7 +15,7 @@ function Body(){
             
             {/*--------------Why you choose us Section----------*/}
             
-            <div className="w-full h-[250px] mt-20 flex justify-between items-center mb-20">
+            <div className="w-full h-[250px] mt-20 flex justify-between items-center">
                 <div className="overflow-hidden rounded-2xl h-full w-[50%]">
                     <img src="/images/lab.jpg" alt="Us" className="w-full"/>
                 </div>
@@ -30,6 +31,21 @@ function Body(){
                 </div>
             </div>
 
+            {/*---------------Testimonials-----------------*/}
+
+            <div className="flex w-full min-h-[250px] bg-blue-200 rounded-md mt-20 py-20 mb-10 px-10">
+                <div className="w-[50%] h-full flex flex-col flex-wrap">
+                    <h2 className="text-3xl font-[mont] text-gray-900">What <b className="text-blue-700">Our Members</b> Are Saying About Us?</h2>
+                    <p className="text-sm text-gray-700 mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque mollitia cupiditate quasi illo unde esse distinctio</p>
+                    <span className="flex justify-start items-center mt-5">
+                        <img src="/images/users.avif" alt="Users" className="h-[40px] w-auto"/> 
+                        <p className="text-gray-900 ml-5 font-bold">100+ Reviews</p>
+                    </span>
+                </div>
+                <div className="w-[50%] h-full flex">
+                    <Testimonial userName="Favour Bawa" userImage="/images/user1.png" rating="2" date="12/05/2025"></Testimonial>
+                </div>
+            </div>
         </div>
     )
 }

@@ -2,10 +2,10 @@
 
 function ConsultingSpecialistCard({img, name, text}: {img: string, name: string, text: string}){
     return(
-        <div className="w-[250px] border border-gray-300 h-[250px] bg-blue-50 rounded-2xl shadow-lg flex flex-col justify-center items-start p-5 hover:scale-105 transition-all duration-500">
+        <div className="w-[250px] border border-gray-300 min-h-[250px] text-gray-800 cursor-pointer bg-blue-50 rounded-2xl shadow-lg flex flex-col justify-center items-start p-5 hover:scale-105 transition-all duration-500 hover:bg-blue-700 hover:text-blue-50">
             <img src={img} alt={name} className="w-[60px] h-[60px] p-1 rounded-full bg-blue-100"/>
-            <h2 className="text-gray-800 text-xl font-[mont] mt-2">{name}</h2>
-            <p className="text-xs text-gray-800">{text}</p>
+            <h2 className="text-xl font-[mont] mt-2">{name}</h2>
+            <p className="text-xs">{text}</p>
         </div>
     )
 }
