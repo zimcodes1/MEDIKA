@@ -7,7 +7,7 @@ const Hero = ()=>{
           <h1 className='font-[Mont] text-5xl text-gray-900 max-sm:text-4xl'>Search & Find Your <b className='text-blue-700'>Favourite</b> Doctor</h1>
           <p className='text-sm text-blue-950 font-sans mt-4 max-sm:text-xs'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae rem cumque adipisci temporibus.</p>
 
-          <div className='flex w-full h-[55px] rounded-4xl bg-white shadow-md mt-[10%] justify-between pl-5 pr-2 items-center text-sm text-gray-900 max-sm:absolute max-sm:bottom-[20%] max-sm:w-[90%] max-sm:left-[5%] max-sm:z-50'>
+          <div className='flex w-full h-[55px] rounded-4xl bg-white shadow-md mt-[10%] justify-between pl-5 pr-2 items-center text-sm text-gray-900 max-sm:absolute max-sm:bottom-[20%] max-sm:w-[90%] max-sm:left-[5%] max-sm:z-20'>
             <span className='cursor-pointer'>
               <p><i className="fa fa-user-circle"></i> Doctor's Name <i className="fa fa-angle-down"></i></p>
             </span>

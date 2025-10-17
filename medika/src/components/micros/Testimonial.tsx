@@ -2,7 +2,7 @@
 
 function Testimonial({userName, rating, date, userImage}:{userName:string, rating:string, date:string, userImage:string}){
     return(
-        <div className="flex w-[80%] mx-auto h-full rounded-2xl bg-blue-50 p-10 flex-col">
+        <div className="flex w-[80%] max-sm:w-full mx-auto max-sm:mt-5 max-sm:mx-0 h-full rounded-2xl shadow-md bg-blue-50 p-10 max-sm:p-5 flex-col">
             <span className="w-full h-[30%] flex">
                 <span className="flex w-[50%] justify-start items-center">
                     <span className="flex w-[40px] h-[40px] overflow-hidden rounded-full">
