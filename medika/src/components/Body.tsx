@@ -1,5 +1,7 @@
 import ConsultingSpecialistCard from "./micros/ConsultingSpecialistCard"
 import Testimonial from "./micros/Testimonial"
+import Button from "./Button"
+
 
 function Body(){
     return(
@@ -27,13 +29,13 @@ function Body(){
                     <p className="text-gray-800 text-xs my-2"><i className="fa fa-check text-green-700"></i>  Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <p className="text-gray-800 text-xs my-2"><i className="fa fa-check text-green-700"></i>  Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-                    <button className="py-3 w-[150px] cursor-pointer rounded-2xl mt-2 text-sm text-blue-700">Learn More <i className="fa fa-arrow-right"></i></button>
+                    <Button text='Learn More!'></Button>
                 </div>
             </div>
 
             {/*---------------Testimonials-----------------*/}
 
-            <div className="flex w-full min-h-[250px] bg-blue-200 rounded-md mt-20 py-20 mb-10 px-10">
+            <div className="flex w-full min-h-[250px] bg-blue-200 rounded-md mt-20 py-20 px-10">
                 <div className="w-[50%] h-full flex flex-col flex-wrap">
                     <h2 className="text-3xl font-[mont] text-gray-900">What <b className="text-blue-700">Our Members</b> Are Saying About Us?</h2>
                     <p className="text-sm text-gray-700 mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque mollitia cupiditate quasi illo unde esse distinctio</p>
@@ -44,6 +46,21 @@ function Body(){
                 </div>
                 <div className="w-[50%] h-full flex">
                     <Testimonial userName="Favour Bawa" userImage="/images/user1.png" rating="2" date="12/05/2025"></Testimonial>
+                </div>
+            </div>
+
+            {/*---------------------Future of Quality Health-------------*/}
+            <div className="w-full mt-20 mb-10 h-[350px] flex">
+                <div className="flex w-[50%] flex-wrap">
+                    <h2 className="text-3xl font-[mont] text-gray-900">The Future <br /> Of <b className="text-blue-700">Quality Health</b></h2>
+                    <p className="text-sm mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quidem sit dolore vero ab commodi nostrum laborum ipsum perferendis ipsa assumenda facilis, voluptate sequi quod fuga voluptatibus? Corporis, expedita exercitationem? <br /> <br />
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe consectetur, cumque amet eligendi deleniti omnis repellendus quo totam minus ut voluptate optio, facilis aut recusandae quis velit rerum dolores necessitatibus. <br /> <br />
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint fuga molestias sit, aspernatur unde ab itaque consectetur eos!
+                    </p>
+                    <Button text="Learn More!"></Button>
+                </div>
+                <div className="flex w-[50%] overflow-hidden rounded-3xl justify-center items-center">
+                    <img src="/images/doctor2.png" alt="Doctor" className="w-full h-auto" />
                 </div>
             </div>
         </div>
