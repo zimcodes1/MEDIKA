@@ -50,7 +50,7 @@ function Body(){
             </div>
 
             {/*---------------------Future of Quality Health-------------*/}
-            <div className="w-full mt-20 mb-10 h-[350px] flex">
+            <div className="w-full mt-20 h-[350px] flex">
                 <div className="flex w-[50%] flex-wrap">
                     <h2 className="text-3xl font-[mont] text-gray-900">The Future <br /> Of <b className="text-blue-700">Quality Health</b></h2>
                     <p className="text-sm mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quidem sit dolore vero ab commodi nostrum laborum ipsum perferendis ipsa assumenda facilis, voluptate sequi quod fuga voluptatibus? Corporis, expedita exercitationem? <br /> <br />
@@ -61,6 +61,17 @@ function Body(){
                 </div>
                 <div className="flex w-[50%] overflow-hidden rounded-3xl justify-center items-center">
                     <img src="/images/doctor2.png" alt="Doctor" className="w-full h-auto" />
+                </div>
+            </div>
+
+            {/*------------------Newsletter---------------------*/}
+            <div className="flex w-full h-[250px] bg-blue-700 rounded-3xl mb-10 mt-20 flex-col items-center justify-center">
+                <h1 className="text-4xl font-bold text-blue-50">Subscribe To Our Newsletter!</h1>
+                <div className='flex w-[60%] mx-auto h-[55px] rounded-4xl bg-white shadow-md mt-[2%] justify-between pr-2 items-center text-sm text-gray-900'>
+                    <input type="text" className="w-[95%] text-gray-800 h-full rounded-4xl pl-5" placeholder="Your email:"/>
+                    <span className='cursor-pointer py-3 px-3.5 bg-blue-700 rounded-full text-blue-50 hover:bg-blue-300 hover:text-gray-900'>
+                        <i className="fa fa-arrow-right"></i>
+                    </span>
                 </div>
             </div>
         </div>
