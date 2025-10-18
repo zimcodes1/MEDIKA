@@ -1,6 +1,6 @@
 
 
-function Testimonial({userName, rating, date, userImage}:{userName:string, rating:string, date:string, userImage:string}){
+function Testimonial({userName, date, userImage}:{userName:string, date:string, userImage:string}){
     return(
         <div className="flex w-[80%] max-sm:w-full mx-auto max-sm:mt-5 max-sm:mx-0 h-full rounded-2xl shadow-md bg-blue-50 p-10 max-sm:p-5 flex-col">
             <span className="w-full h-[30%] flex">

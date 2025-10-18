@@ -48,7 +48,7 @@ function Body(){
                     </span>
                 </div>
                 <div className="w-[50%] max-[820px]:w-full max-[820px]:mt-5 max-sm:w-full max-sm:h-fit h-full flex">
-                    <Testimonial userName="Favour Bawa" userImage="/images/user1.png" rating="2" date="12/05/2025"></Testimonial>
+                    <Testimonial userName="Favour Bawa" userImage="/images/user1.png" date="12/05/2025"></Testimonial>
                 </div>
             </div>
             </Fade>
