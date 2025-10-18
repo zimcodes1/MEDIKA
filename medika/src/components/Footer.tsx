@@ -33,7 +33,7 @@ const Footer = ()=>{
                     </div>
                 </div>
             </div>
-            <div className="w-full h-[10%] flex justify-center items-center">
+            <div className="w-full h-fit py-2 flex justify-center items-center">
                 <p className="text-sm text-blue-50">© 2025 | All Rights Reserved</p>
             </div>
         </div>

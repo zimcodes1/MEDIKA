@@ -1,12 +1,16 @@
 import ButBar from "./micros/ButBar";
+import { Slide, Fade } from "react-awesome-reveal";
 
 const Hero = ()=>{
     return(
         <div className='w-full h-[530px] max-sm:h-[450px] bg-blue-100 flex px-20 max-sm:px-4 max-[820px]:px-10 relative overflow-hidden flex-wrap'>
         <div className='flex w-[50%] h-full flex-col py-20 flex-wrap max-sm:py-14'>
-          <h1 className='font-[Mont] text-5xl text-gray-900 max-sm:text-4xl'>Search & Find Your <b className='text-blue-700'>Favourite</b> Doctor</h1>
-          <p className='text-sm text-blue-950 font-sans mt-4 max-sm:text-xs'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae rem cumque adipisci temporibus.</p>
-
+          <Slide direction="left" duration={500} delay={0.2} triggerOnce>
+            <h1 className='font-[Mont] text-5xl text-gray-900 max-sm:text-4xl'>Search & Find Your <b className='text-blue-700'>Favourite</b> Doctor</h1>
+          </Slide>
+          <Fade direction="up" duration={500} delay={0.3} triggerOnce>
+            <p className='text-sm text-blue-950 font-sans mt-4 max-sm:text-xs'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae rem cumque adipisci temporibus.</p>
+          </Fade>
           <div className='flex w-full h-[55px] rounded-4xl bg-white shadow-md mt-[10%] justify-between pl-5 pr-2 items-center text-sm text-gray-900 max-[820px]:absolute max-sm:bottom-[20%] max-sm:w-[90%] max-sm:left-[5%] max-[820px]:z-20 max-[820px]:bottom-30 max-[820px]:w-[400px]'>
             <span className='cursor-pointer'>
               <p><i className="fa fa-user-circle"></i> Doctor's Name <i className="fa fa-angle-down"></i></p>

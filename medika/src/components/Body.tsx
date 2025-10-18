@@ -1,7 +1,7 @@
 import ConsultingSpecialistCard from "./micros/ConsultingSpecialistCard"
 import Testimonial from "./micros/Testimonial"
 import Button from "./Button"
-
+import { Slide, Fade } from "react-awesome-reveal"
 
 function Body(){
     return(
@@ -9,14 +9,16 @@ function Body(){
             <h1 className="text-3xl font-bold text-gray-950 mb-5 font-[Mont] max-sm:text-2xl">Our Consulting Specialists</h1>
             {/*-------------ConsultingSpecialistCards Here-------------------*/}
             <div className="flex justify-between items-center w-full flex-wrap">
+                <Slide cascade direction="right" duration={500} damping={0.3} triggerOnce>
                 <ConsultingSpecialistCard name='Covid-19 Test' img='/images/germ.png' text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae rem cumque adipisci temporibus."></ConsultingSpecialistCard>
                 <ConsultingSpecialistCard name="Heart & Lungs" img="/images/lungs.png" text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae rem cumque adipisci temporibus."></ConsultingSpecialistCard>
                 <ConsultingSpecialistCard name="Supliments" img="/images/bowl.png" text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae rem cumque adipisci temporibus."></ConsultingSpecialistCard>
                 <ConsultingSpecialistCard name='Mental Health' img="/images/brain.png" text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae rem cumque adipisci temporibus."></ConsultingSpecialistCard>
+                </Slide>
             </div>
             
             {/*--------------Why you choose us Section----------*/}
-            
+            <Fade direction="up" duration={900} triggerOnce fraction={0.3}>
             <div className="w-full h-[250px] max-sm:h-auto mt-20 max-:mt-10 flex flex-wrap justify-between items-center max-sm:flex-col">
                 <div className="overflow-hidden rounded-2xl h-full w-[50%] max-sm:w-full">
                     <img src="/images/lab.jpg" alt="Us" className="w-full"/>
@@ -32,9 +34,10 @@ function Body(){
                     <Button text='Learn More!'></Button>
                 </div>
             </div>
+            </Fade>
 
             {/*---------------Testimonials-----------------*/}
-
+            <Fade direction="up" duration={900} triggerOnce fraction={0.3}>
             <div className="flex max-[820px]:flex-col w-full min-h-[250px] bg-blue-200 rounded-md mt-20 max-[820px]:py-5 py-20 px-10 max-sm:flex-wrap max-sm:flex-col max-sm:py-10 max-sm:px-5 max-sm:mt-10">
                 <div className="w-[50%] max-[820px]:w-full max-sm:w-full max-sm:h-fit h-full flex flex-col flex-wrap">
                     <h2 className="text-3xl font-[mont] text-gray-900 max-sm:text-2xl">What <b className="text-blue-700">Our Members</b> Are Saying About Us?</h2>
@@ -48,7 +51,9 @@ function Body(){
                     <Testimonial userName="Favour Bawa" userImage="/images/user1.png" rating="2" date="12/05/2025"></Testimonial>
                 </div>
             </div>
+            </Fade>
 
+            <Slide direction="right" duration={900} triggerOnce fraction={0.3}>
             {/*---------------------Future of Quality Health-------------*/}
             <div className="w-full mt-20 max-sm:mt-10 h-[350px] max-sm:h-fit max-sm:flex-col-reverse flex">
                 <div className="flex w-[50%] max-sm:w-full max-sm:pr-0 flex-wrap pr-4 max-sm:mt-5">
@@ -63,8 +68,10 @@ function Body(){
                     <img src="/images/doctor2.png" alt="Doctor" className="w-full h-auto" />
                 </div>
             </div>
+            </Slide>
 
             {/*------------------Newsletter---------------------*/}
+            <Fade direction="up" duration={900} triggerOnce fraction={0.3}>
             <div className="flex w-full h-[250px] max-sm:h-[200px] bg-blue-700 rounded-3xl max-sm:rounded-2xl mt-20 max-sm:mt-10 flex-col items-center justify-center">
                 <h1 className="text-4xl max-sm:text-xl font-bold text-blue-50">Subscribe To Our Newsletter!</h1>
                 <div className='flex w-[60%] max-sm:w-[80%] mx-auto h-[55px] rounded-4xl bg-white shadow-md mt-[2%] justify-between pr-2 items-center text-sm text-gray-900'>
@@ -74,6 +81,7 @@ function Body(){
                     </span>
                 </div>
             </div>
+            </Fade>
         </div>
     )
 }

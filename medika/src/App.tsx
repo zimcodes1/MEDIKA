@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 
 function App(){
   return(
-    <div className='w-full h-auto'>
+    <div className='w-full h-auto overflow-hidden'>
       <TopBar></TopBar>
       <Hero></Hero>
       <Body></Body>
