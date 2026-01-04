@@ -23,7 +23,7 @@ const Hero = ()=>{
             </span>
           </div>
         </div>
-        <img className='w-auto h-8/10 absolute right-20 z-10 bottom-0 max-sm:bottom-[60px] max-[820px]:bottom-[100px] max-[820px]:w-[65%] max-[820px]:right-0 max-sm:w-auto max-sm:right-[-10%]' src="/images/doctor.png" alt="Doctor" />
+        <img className='w-auto h-full absolute right-20 z-10 bottom-0 max-sm:bottom-[60px] max-[820px]:bottom-[100px] max-[820px]:w-[65%] max-[820px]:right-0 max-sm:w-auto max-sm:right-[-10%]' src="/images/doctor.png" alt="Doctor" />
         <div className='w-[600px] h-[600px] max-sm:h-[300px] max-sm:w-[300px] absolute bg-[#006eff5e] rounded-full right-2 bottom-[-30%] max-sm:bottom-0 max-sm:right-[-10%] max-[820px]:right-[-20%]'>
 
         </div>
